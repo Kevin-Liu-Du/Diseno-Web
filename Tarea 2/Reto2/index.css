@@ -1,0 +1,10 @@
+.highlight{
+    color: orange;
+    font-weight: bold;
+}
+
+.btn a {
+    text-decoration: none; /* Quitar el subrayado */
+    color: white; /* Utilizar el color de texto heredado */
+    font-weight: bold;
+}
