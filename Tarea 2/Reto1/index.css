@@ -1,45 +1,11 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333; /* Color de fondo del encabezado */
-  padding: 10px 20px; /* Espaciado interno del encabezado */
+.btn a {
+  text-decoration: none; /* Quitar el subrayado */
+  color: inherit; /* Utilizar el color de texto heredado */
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+h1{
+  font-weight: bolder;
 }
-
-.logo img {
-  width: 50px; /* Tamaño del logo */
-  margin-right: 10px; /* Espacio entre el logo y el texto */
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav ul li {
-  margin-right: 20px; /* Espacio entre cada elemento de la lista */
-}
-
-nav ul li:last-child {
-  margin-right: 0; /* Quita el margen derecho del último elemento de la lista */
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff; /* Color del texto de los enlaces */
-}
-
-.join-now a {
-  text-decoration: none;
-  color: #fff; /* Color del texto del enlace */
-  background-color: #007bff; /* Color de fondo del botón */
-  padding: 10px 20px; /* Espaciado interno del botón */
-  border-radius: 5px; /* Bordes redondeados del botón */
+.highlight {
+  color: red; /* Establece el color del texto en rojo */
 }
