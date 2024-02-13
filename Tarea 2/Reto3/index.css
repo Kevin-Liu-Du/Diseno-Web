@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+.hr-symbol-hr {
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    width: min-content;
+    background-color: red;
+}
+
+.symbol {
+    margin: 0 10px;
+      font-size: 20px; /* Ajusta el tamaño del símbolo según sea necesario */
+}

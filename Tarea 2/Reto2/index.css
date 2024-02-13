@@ -8,3 +8,22 @@
     color: white; /* Utilizar el color de texto heredado */
     font-weight: bold;
 }
+
+.icon-container {
+    background-color: orange;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 150px; /* Ajusta el tamaño según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.icon-container i {
+    font-size: 90px; /* Ajusta el tamaño del icono según sea necesario */
+    color: white;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}

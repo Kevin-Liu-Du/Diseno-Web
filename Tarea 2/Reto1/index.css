@@ -9,3 +9,7 @@ h1{
 .highlight {
   color: red; /* Establece el color del texto en rojo */
 }
+.hr{
+  height: 5px;
+  color: red;
+}
