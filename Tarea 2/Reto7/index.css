@@ -1,0 +1,31 @@
+/* Cambia el color de fondo del hover */
+.imghvr-fade:hover figcaption {
+    background-color: #ffcc00; /* Cambia el color de fondo durante el hover */
+}
+
+.imghvr-push-up:hover figcaption {
+    background-color: #ffcc00; /* Cambia el color de fondo durante el hover */
+}
+
+.imghvr-flip-diag-2:hover figcaption {
+    background-color: #ffcc00; /* Cambia el color de fondo durante el hover */
+}
+
+.imghvr-fold-right:hover figcaption {
+    background-color: #ffcc00; /* Cambia el color de fondo durante el hover */
+}
+
+.imghvr-zoom-out-right:hover figcaption {
+    background-color: #ffcc00; /* Cambia el color de fondo durante el hover */
+}
+
+.imghvr-zoom-out:hover figcaption {
+    background-color: #ffcc00; /* Cambia el color de fondo durante el hover */
+}
+
+
+
+h3 {
+    font-weight: bolder;
+}
+

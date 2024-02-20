@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/Arena-min.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container{
+    /*background-color: green;*/
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-avatar {
+    width: 150px; /* Tamaño deseado */
+    height: 150px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 7px solid #fff; /* Añade un borde blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+    transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.img-avatar:hover {
+    transform: scale(1.05); /* Hace que la imagen se agrande ligeramente al hacer hover */
+}
+
+
+
+p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.icons {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.icons li {
+    margin-right: 10px; /* Espacio entre los íconos */
+}
+
+.icons a {
+    display: inline-block; /* Hace que los íconos sean elementos de bloque */
+    width: 40px; /* Ancho uniforme para todos los íconos */
+    height: 40px; /* Altura uniforme para todos los íconos */
+    line-height: 40px; /* Alinea verticalmente los íconos */
+    text-align: center; /* Centra el contenido dentro de los íconos */
+    color: white; /* Color de los íconos */
+    transition: color 0.3s ease; /* Transición suave del color */
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #007bff; /* Cambia de color al pasar el ratón */
+}
+
