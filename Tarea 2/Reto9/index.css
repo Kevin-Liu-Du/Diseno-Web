@@ -1,0 +1,12 @@
+.container1 {
+    display: flex; /* Utiliza flexbox para alinear elementos en una fila */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+.linea {
+    flex: 1; /* La línea ocupa todo el espacio restante */
+    border-top: 1px solid black; /* Crea una línea horizontal */
+}
+.texto {
+    margin: 0 10px; /* Espacio alrededor del texto */
+}
+
