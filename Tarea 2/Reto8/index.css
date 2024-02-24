@@ -1,68 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url(img/Arena-min.jpg) no-repeat;
-    background-size: cover;
-}
-
-.container{
-    /*background-color: green;*/
-    width: 420px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
-    backdrop-filter: blur(10px);
-}
-
-.container h1{
-    font-size: 36px;
-    text-align: center;
-}
-
-.text-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-avatar {
-    width: 150px; /* Tamaño deseado */
-    height: 150px; /* Asegura que la imagen sea cuadrada */
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    border: 7px solid #fff; /* Añade un borde blanco */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
-    transition: transform 0.3s ease; /* Transición suave al hacer hover */
-}
-
-.img-avatar:hover {
-    transform: scale(1.05); /* Hace que la imagen se agrande ligeramente al hacer hover */
+.navbar {
+    background-color: rgb(205, 202, 203) !important; 
+    width: 100%;
 }
 
 
-
-p {
-    text-align: center;
-    margin-top: 5px;
+.dropdown-menu{
+    background-color: rgb(205, 202, 203);
 }
 
+.dropdown-item:hover {
+    background-color: rgb(205, 202, 203); 
+}
+
+.imghvr-shutter-out-vert:hover figcaption {
+    background-color: rgb(250, 205, 211); 
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+    color: #000;
+    box-shadow: none;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.fondo1{
+    background-image: url(img/laf.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para los íconos de redes sociales */
 .icons {
     list-style: none; /* Quita los puntos de la lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    padding: 0px; /* Elimina el relleno predeterminado de la lista */
     margin: 0; /* Elimina el margen predeterminado de la lista */
     display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
     justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.container-fluid4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .icons li {
@@ -70,17 +45,60 @@ p {
 }
 
 .icons a {
+    font-size: 35px;
     display: inline-block; /* Hace que los íconos sean elementos de bloque */
-    width: 40px; /* Ancho uniforme para todos los íconos */
-    height: 40px; /* Altura uniforme para todos los íconos */
-    line-height: 40px; /* Alinea verticalmente los íconos */
+    width: 80px; /* Ancho uniforme para todos los íconos */
+    height: 80px; /* Altura uniforme para todos los íconos */
+    line-height: 80px; /* Alinea verticalmente los íconos */
     text-align: center; /* Centra el contenido dentro de los íconos */
-    color: white; /* Color de los íconos */
+    color: white; /* Color de los íconos /
     transition: color 0.3s ease; /* Transición suave del color */
     text-decoration: none;
+    border-radius: 50%; /* Hace que los íconos sean circulares*/
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo transparente con opacidad */
 }
 
 .icons a:hover {
-    color: #007bff; /* Cambia de color al pasar el ratón */
+    color: beige; /* Cambia de color al pasar el ratón */
 }
 
+
+/*-------------------------------------------------------------------------------------*/
+#footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+ul.copyright {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.copyright li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+h2 {
+    font-weight: bolder;
+    color: white; /* Aplicar el color blanco al título */
+}
+
+li {
+    color: white;
+}
+/*-------------------------------------------------------------------------------------*/

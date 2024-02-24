@@ -1,3 +1,36 @@
+.navbar {
+    background-color: rgb(205, 202, 203) !important; 
+    width: 100%;
+}
+
+
+.dropdown-menu{
+    background-color: rgb(205, 202, 203);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(205, 202, 203); 
+}
+/*-------------------------------------------------------------------------------------*/
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 20px; /* Espaciado interno del encabezado */
+}
+
+header div {
+    display: flex; /* Activar flexbox */
+    justify-content: space-around; /* Alinear elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan si no caben en una línea */
+}
+
+
+h1, p {
+    margin: 0; /* Eliminar márgenes */
+}
+/*-------------------------------------------------------------------------------------*/
+
 .col1 {
     background-color: #ff0000;
 }
@@ -18,3 +51,38 @@ p {
     font-size: 13px;
 }
 
+/*-------------------------------------------------------------------------------------*/
+#footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+ul.copyright {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.copyright li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+h2 {
+    font-weight: bolder;
+    color: white; /* Aplicar el color blanco al título */
+}
+/*-------------------------------------------------------------------------------------*/
