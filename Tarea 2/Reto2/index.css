@@ -29,6 +29,17 @@ header div {
 h1, p {
     margin: 0; /* Eliminar márgenes */
 }
+
+
+.nav-item a {
+    color: #333; /* Color del texto por defecto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+  }
+  
+  .nav-item a:hover {
+    color: #007bff; /* Cambia el color del texto al hacer hover */
+  }
 /*-------------------------------------------------------------------------------------*/
 
 .highlight{

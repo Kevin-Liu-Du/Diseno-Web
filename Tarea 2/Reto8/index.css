@@ -12,6 +12,16 @@
     background-color: rgb(205, 202, 203); 
 }
 
+.nav-item a {
+    color: #333; /* Color del texto por defecto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+  }
+  
+  .nav-item a:hover {
+    color: #007bff; /* Cambia el color del texto al hacer hover */
+  }
+
 .imghvr-shutter-out-vert:hover figcaption {
     background-color: rgb(250, 205, 211); 
     transition-property: background-color; 
