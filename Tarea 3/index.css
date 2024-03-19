@@ -1,0 +1,160 @@
+body {
+    font-family: "Poppins", Arial sans-serif;
+}
+
+header{
+	/*altura fija vertical*/
+	height: 100vh;
+}
+
+.container {
+    height: 700px;
+    max-width: 1140px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: black; 
+    color: #fff; 
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff; 
+    border-color: black;
+    color: black;
+    border-width: 4px;
+}
+
+
+.p1 {
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+}
+
+.p1 i {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.p1 a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bolder;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease; 
+    border-bottom: 1px solid transparent; 
+}
+
+.p1 a:hover {
+    color: white; 
+    border-bottom-color: white; 
+    border-width: 3px;
+    font-weight: bolder;
+}
+
+/*----------------------------section1------------------------------------*/
+
+.section1 {
+    background-color: black; /* Color de fondo de la sección */
+}
+
+
+.section1 h1 {
+    color: white; /* Color del título */
+    font-weight: bolder;
+}
+
+.section1 p {
+    color: white; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+    text-align: justify;
+    overflow: hidden;
+}
+
+.animacion1 {
+    width: 100%; /* Ancho máximo */
+    height: auto; /* Altura automática */
+}
+
+/*----------------------------section2------------------------------------*/
+
+h1 {
+    color: #294A3C;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+
+/************ TABLA DE PRECIOS ***************/
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+/*el margin negativo -40px es para que haga el efecto que sube el cuadro*/
+
+
+/*el margin positivo 40px es para que haga el efecto que baje el cuadro*/
+
+
+/*el color azul es el principal de la tabla de precios*/
+
+.price-table:hover {
+    background-color: #294A3C;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    border: none;
+    box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+
+/*clases de los textos precio y dollar*/
+
+div.price {
+    font-size: 70px;
+    font-weight: 300;
+    color: #333c4d;
+}
+
+div.dollar {
+    vertical-align: top;
+    font-size: 17px !important;
+    display: inline-block;
+    margin-top: 15px;
+    color: #222;
+}
+
+
+/*al pasar el mouse en la info cambia a color blanco los textos ya que al inicio son negros*/
+
+.price-table:hover * {
+    color: #fff !important;
+}
