@@ -1,0 +1,351 @@
+body {
+    font-family: "Poppins", Arial sans-serif;
+}
+
+header{
+	/*altura fija vertical*/
+	height: 100vh;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: black; 
+    color: #fff; 
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff; 
+    border-color: black;
+    color: black;
+    border-width: 4px;
+}
+
+
+.p1 {
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+}
+
+.p1 i {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.p1 a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bolder;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease; 
+    border-bottom: 1px solid transparent; 
+}
+
+.p1 a:hover {
+    color: white; 
+    border-bottom-color: white; 
+    border-width: 3px;
+    font-weight: bolder;
+}
+
+/*----------------------------section1------------------------------------*/
+
+.section1 {
+    background-color: black; /* Color de fondo de la sección */
+}
+
+
+.section1 h1 {
+    color: white; /* Color del título */
+    font-weight: bolder;
+}
+
+.section1 p {
+    color: white; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+    text-align: justify;
+    overflow: hidden;
+}
+
+.animacion1 {
+    width: 100%; /* Ancho máximo */
+    height: auto; /* Altura automática */
+}
+
+/*------------------------------------------section2 precios--------------------------------------------------------*/
+
+/* Estilos generales */
+
+h1 {
+    color: #294A3C;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Estilos específicos para la tabla de precios */
+.row i{
+    font-size: 20px;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 100px;
+    background-color: cover;
+}
+
+.price-table:hover {
+    background-color: #294A3C;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    border: none;
+    box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+.price-table:hover * {
+    color: #fff !important;
+}
+
+.price {
+    font-size: 70px;
+    font-weight: 300;
+    color: #333c4d;
+}
+
+.dollar {
+    vertical-align: top;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #222;
+}
+
+
+/*----------------------------section4 banner------------------------------------*/
+.container-fluid3 {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.banner1 {
+    background-image: url(../img/muro.jpg);
+    background-size: cover;
+    background-position: center;
+    /*efecto parallax*/
+    background-attachment: fixed;
+}
+
+
+
+/*----------------------------section3 banner fotos texto------------------------------------*/
+.line {
+    border-bottom: 2px solid black; /* Cambia el grosor, color y estilo según lo desees */
+    width: 60px; /* Ancho de la línea */
+}
+
+.imghvr-reveal-right:hover figcaption {
+    background-color: beige !important; 
+    color: black;
+}
+
+
+
+
+
+
+
+/*formulario de contacto*/
+
+
+/*etiquetas*/
+label{
+    color: #000;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* permite saber en que campo se va a ubicar el usuario*/
+input:hover{
+    outline: 1px solid #294A3C;
+}
+
+textarea:hover{
+    outline: 1px solid #294A3C;
+}
+
+/* Propiedades de los campos */
+
+input,
+textarea {
+    cursor: pointer;
+    background-color: #e2e2e2 !important;
+}
+
+
+/* Propiedades de los botones */
+
+.enviar{
+    width: 170px;
+    height: 60px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 26px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: #294A3C !important;
+}
+
+.borrar{
+    width: 170px;
+    height: 60px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 26px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: #294A3C !important;
+}
+
+
+/* validacion campo TextArea */
+textarea{
+    resize: none;
+}
+
+/*----------------------------------------CHAT WHATAPP forma 2---------------------------------*/
+
+.container-botonws {
+    background-color: rgb(4,187,57);
+    border: none;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    animation: pulse 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    background-color: black;
+}
+
+
+/*efecto de animación imagen chat*/
+
+.botonws {
+    width: 60px;
+    transition: width 1s ease;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgb(4,187,57);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+/*termina CHAT WHATAPP forma 2*/
+
+
+
+/*------------------------------------boton scrolltop-----------------------------------------*/
+
+#scrollToTopBtn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#scrollToTopBtn:hover {
+    color: black;
+}
+
+
+/*---------------------------------------------Estilos para el footer------------------------------------*/
+footer.container-fluid {
+    position: relative; /* Fijar el footer en la parte inferior */
+    bottom: 0; /* Colocar el footer al final de la página */
+    width: 100%; /* Ancho completo del footer */
+    display: flex; /* Usar flexbox para centrar verticalmente el contenido */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+    padding: 20px 0; /* Espaciado interior del footer */
+    z-index: 9999; /* Asegurar que el footer esté por encima de otros elementos */
+}
+
+a {
+    font-weight: bolder;
+}
+
+footer.container-fluid ul {
+    list-style: none; /* Eliminar los estilos de lista predeterminados */
+    margin: 0; /* Eliminar el margen */
+    padding: 0; /* Eliminar el relleno */
+}
+
+footer.container-fluid ul li {
+    display: inline; /* Mostrar los elementos de lista en línea */
+    margin: 0 10px; /* Agregar un margen entre los elementos de lista */
+    color: #000; /* Color del texto */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+footer.container-fluid ul li a {
+    color: #000; /* Color del texto del enlace */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+}
+
+footer.container-fluid ul li a:hover {
+    color: #00469B;
+}
+
+
+

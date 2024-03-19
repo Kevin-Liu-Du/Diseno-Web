@@ -6,9 +6,9 @@
         <title>Landing Page</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="../Tarea 3/css/index.css">
 
-        <link rel="icon" href="../favicon.png">
+        <link rel="icon" href="favicon.png">
 
         <!--Libreria de iconoes web iconscout-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -16,12 +16,18 @@
         <!--Libreria de REMIXicons-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 
+        <!--CDN de los efectos para imagenes-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
+
+        <!-- carga de la libreria ANIMATE.CSS CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
 
     </head>
     <body>
 
         <!-- Video de fondo -->
-        <header class="container-fluid1 d-flex align-items-center" data-vide-bg="videos/dubai">
+        <header class="container-fluid1 d-flex align-items-center" data-vide-bg="videos/dubai" id="inicio">
             <div class="container text-center">
                 <h1 class="display-2 text-white text-center" style="font-weight: bolder;">Deja que la maravilla tome el control.</h1>
                 <h2 class="display-1 text-white text-center mt-4" >"Aventuras imperdibles en Dubái."</h2>
@@ -55,11 +61,14 @@
         <section class="container-fluid bg-light">
             <div class="container pt-5">
                 <div class="">
-                    <h1 class="display-1 text-center">Catálogo de precios</h1>
+                    <h1 class="display-1 text-center wow animate__animated animate__pulse animate__delay-300ms animate__infinite">Catálogo de precios</h1>
                     <h2 class="text-center">Paquetes de viajes </h2>
                 </div>
                 <div class="pt-5"></div>
-
+    
+    
+                <!-- AQUI VA EL CODIGO TABLA DE PRECIOS -->
+    
                 <div class="row pt-5">
                     <div class="col-md-6">
                         <div class="row">
@@ -67,15 +76,15 @@
                                 <a href="https://google.com/" target="blank">
                                     <i class="ri-hotel-bed-fill"></i>
                                     <h2>Básico</h2>
-                                    <div class="dollar">Hoteles</div><br>
+                                    <div class="dollar">Hoteles<i class="ri-hotel-line"></i></div><br>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
                                     <div class="price">1</div>
                                     <div class="">
-                                        <p>Transporte terrestre básico (autobús o tren)</p>
-                                        <p>Desayuno incluido</p>
-                                        <p>Excursión turística incluida</p>
-                                        <p>Máximo 5 días de viaje</p>
+                                        <p>Alojamiento económico</p>
+                                        <p>Transporte terrestre</p>
+                                        <p>Desayuno diario</p>
+                                        <p>Actividades básicas</p>
                                     </div>
                                 </a>
                             </div>
@@ -84,16 +93,16 @@
                                 <a href="https://teletica.com/" target="blank">
                                     <i class="ri-goblet-2-fill"></i>
                                     <h2>Estándar</h2>
-                                    <div class="dollar">Hoteles</div><br>
+                                    <div class="dollar">Hoteles<i class="ri-hotel-line"></i></div><br>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
                                     <div class="price">2</div>
                                     <div class="">
-                                        <p>Transporte terrestre cómodo (autobús o tren de calidad superior)</p>
-                                        <p>Desayuno y una comida incluidos diariamente</p>
-                                        <p>Dos excursiones turísticas incluidas</p>
-                                        <p>Máximo 5 - 7 días de viaje</p>
+                                        <p>Alojamiento confortable</p>
+                                        <p>Transporte de calidad</p>
+                                        <p>Desayuno y almuerzo</p>
+                                        <p>Variedad de excursiones</p>
                                     </div>
                                 </a>
                             </div>
@@ -106,21 +115,17 @@
                                 <a href="https://repretel.com/" target="blank">
                                     <i class="ri-roadster-fill"></i>
                                     <h2>Premium</h2>
-                                    <div class="dollar">Hoteles</div><br>
+                                    <div class="dollar">Hoteles<i class="ri-hotel-line"></i></div><br>
                                     <i class="ri-star-fill"></i>
-
                                     <i class="ri-star-fill"></i>
-
                                     <i class="ri-star-fill"></i>
-
                                     <i class="ri-star-fill"></i>
-
                                     <div class="price">3</div>
                                     <div class="">
-                                        <p>Transporte en vehículos de lujo o vuelos en clase ejecutiva</p>
-                                        <p>Desayuno, almuerzo y cena incluidos diariamente, con opciones gourmet</p>
-                                        <p>Tres excursiones turísticas incluidas</p>
-                                        <p>Máximo 7 - 10 días de viaje</p>
+                                        <p>Alojamiento de lujo</p>
+                                        <p>Transporte de primera clase</p>
+                                        <p>Todas las comidas gourmet</p>
+                                        <p>Acceso exclusivo a experiencias</p>
                                     </div>
                                 </a>
                             </div>
@@ -129,7 +134,7 @@
                                 <a href="https://repretel.com/" target="blank">
                                     <i class="ri-vip-crown-line"></i>
                                     <h2>VIP</h2>
-                                    <div class="dollar">Hoteles</div><br>
+                                    <div class="dollar">Hoteles<i class="ri-hotel-line"></i></div><br>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -137,11 +142,10 @@
                                     <i class="ri-star-fill"></i>
                                     <div class="price">4</div>
                                     <div class="">
-                                        <p>Transporte privado o vuelos privados según sea necesario</p>
-                                        <p>Servicio las 24 horas del día</p>
-                                        <p>Comidas incluidas de alta cocina, con opciones gourmet y menús personalizados</p>
-                                        <p>cceso exclusivo a experiencias únicas y actividades de élite</p>
-                                        <p>Duración del viaje de 10 días o más</p>
+                                        <p>Alojamiento exclusivo</p>
+                                        <p>Transporte privado</p>
+                                        <p>Comidas gourmet incluidas</p>
+                                        <p>Experiencias VIP</p>
                                     </div>
                                 </a>
                             </div>
@@ -155,9 +159,216 @@
                     </div>
                 </div>
     
-            
                 </div>     
         </section>
+
+        <section class="container-fluid3 banner1 ">
+            <h2 class="text-center text-white wow animate__animated animate__zoomIn animate__delay-800ms">Dubái, donde el lujo y la modernidad se encuentran en el corazón del desierto.</h2>
+            <h3 class="text-center text-white wow animate__animated animate__zoomIn animate__delay-800ms">"دبي"</h3>
+        </section>
+
+        <section class="espacio">
+            <div class="container">
+    
+                <!-- 2 columnas informativas -->
+                <div class="row">
+                    <div class="col-sm-7 col-md-6 col-lg-7 order-md-1">
+                        <h2 class="titulajes pt-5" data-aos="fade-in" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-once="true">Burj Khalifa</h2>
+                        <p class="line"></p>
+                        <p class="pt-3" style="text-align: justify;">
+                            El Burj Khalifa, ubicado en Dubái, es la estructura más alta del mundo, con una altura impresionante de 828 metros. Esta maravilla arquitectónica ofrece una experiencia incomparable para los turistas que desean disfrutar de vistas panorámicas asombrosas de la ciudad desde su plataforma de observación en lo alto. Además de su impresionante altura, el Burj Khalifa cuenta con una arquitectura deslumbrante y un diseño vanguardista que lo convierten en un símbolo emblemático de la modernidad y la innovación en Dubái. Los visitantes pueden explorar el lujoso entorno del edificio, que incluye un centro comercial de clase mundial, hoteles de lujo y una variedad de opciones gastronómicas. El ascenso en el ascensor de alta velocidad hacia la cima del Burj Khalifa es una experiencia emocionante que ofrece una vista inigualable de la ciudad y sus alrededores, haciendo de esta visita una experiencia inolvidable para los turistas de todo el mundo.
+                        </p>
+                    </div>
+                    <div class="col-sm-5 col-md-6 col-lg-5 order-md-2 d-flex align-items-center">
+                        <img src="img/burj.jpg" alt="foto1" class="img-fluid rounded img-thumbnail wow animate__animated animate__slideInRight animate__delay-300s" />
+                    </div>
+                </div>
+    
+                <hr class="linea">
+    
+                <!-- 2 columnas informativas -->
+                <div class="row">
+                    <div class="col-sm-7 col-md-6 col-lg-7 order-md-2">
+                        <h2 class="titulajes" data-aos="fade-in" data-aos-delay="400" data-aos-easing="ease-in-out" data-aos-once="true">Desierto Safari</h2>
+                        <p class="line"></p>
+                        <p class="pt-3" style="text-align: justify;">
+                            El desierto safari en Dubái es una experiencia emocionante que permite a los turistas explorar las vastas extensiones del desierto de Arabia. Durante esta aventura, los visitantes tienen la oportunidad de montar en vehículos 4x4 especialmente equipados para recorrer las dunas de arena, experimentando emocionantes subidas y bajadas mientras disfrutan de las impresionantes vistas del paisaje desértico. Además del emocionante paseo en vehículo, los turistas pueden participar en una variedad de actividades, como montar en camello, hacer sandboarding en las dunas, o disfrutar de una cena tradicional en un campamento beduino bajo las estrellas. El desierto safari ofrece una oportunidad única para sumergirse en la cultura árabe y disfrutar de la belleza natural del desierto, convirtiéndolo en una experiencia inolvidable para los visitantes de Dubái.
+                        </p>
+                    </div>
+                    <div class="col-sm-5 col-md-6 col-lg-5 order-md-1 d-flex align-items-center">
+                        <img src="img/safari.jpg" alt="foto2" class="img-fluid rounded img-thumbnail wow animate__animated animate__slideInLeft animate__delay-300s" />
+                    </div>
+                </div>
+    
+                <hr class="linea">
+    
+                <!-- columna total informativa -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="titulajes text-center" data-aos="fade-in" data-aos-delay="600" data-aos-easing="ease-in-out" data-aos-once="true">Burj Al Arab</h2>
+                        <p class="pt-3" style="text-align: justify;">
+                            El Burj Al Arab es uno de los hoteles más lujosos y reconocibles del mundo, con su distintiva forma de vela y su ubicación en una isla artificial en Dubái. Ofrece alojamiento de lujo, restaurantes galardonados y un servicio excepcional, todo ello envuelto en un ambiente de opulencia y elegancia incomparables.
+                        </p>
+                    </div>
+                    <div class="pt-3"></div>
+                    <div class="text-center">
+                        <img src="img/arab.jpg" alt="foto3" class="img-fluid rounded" />
+                    </div>
+                </div>
+    
+                <hr class="linea">
+    
+                <!-- 3 columnas informativas -->
+                <div class="row">
+                    <h2 class="display-6 text-center mb-5" data-aos="fade-in" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true">"Explora Dubái: Una Ciudad de Contrastes"</h2>
+                    <div class="col-sm-4 col-md-6 col-lg-4">
+                        <h5 class="text-center bg-light shadow pt-2 pb-2">Rascacielos Impresionantes</h5>
+                        <p class="pt-3" style="text-align: justify;">
+                            Dubái es conocido por su impresionante horizonte urbano, adornado con algunos de los rascacielos más altos del mundo, incluido el icónico Burj Khalifa. Estas estructuras imponentes son testigos de la ambición arquitectónica de la ciudad y ofrecen vistas panorámicas asombrosas desde sus observatorios.
+                        </p>
+                        <div class="pt-3"></div>
+                        <div class="text-center" >
+                            <figure class="imghvr-reveal-right img-fluid rounded mb-5" >
+                                <img src="img/arab.jpg" >
+                                <figcaption>
+                                    <h3 class="ih-fade-right text-dark">Hotel Burj Al Arab</h3>
+                                    <p class="ih-zoom-in ih-delay-md">
+                                        <i>El Hotel Burj Al Arab es un icónico hotel de siete estrellas en Dubái, reconocido por su diseño en forma de vela, lujo incomparable y servicios exclusivos.</i>
+                                    </p>
+                                </figcaption>
+                                <a href="https://blog.growxco.com/articulos/seo-en-marketing-digital#:~:text=%C2%BFQu%C3%A9%20es%20SEO%20en%20marketing%20digital%3F&text=SEO%20o%20search%20engine%20optimization,sitio%20web%20en%20las%20SERPs." target="none"></a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-6 col-lg-4">
+                        <h5 class="text-center bg-light shadow pt-2 pb-2">Lujo sin Límites</h5>
+                        <p class="pt-3" style="text-align: justify;">
+                            Dubái es sinónimo de lujo y extravagancia. Desde hoteles de siete estrellas como el Burj Al Arab hasta centros comerciales de clase mundial como el Dubai Mall, la ciudad ofrece un estilo de vida opulento que atrae a visitantes de todo el mundo en busca de experiencias exclusivas y de alta gama.
+                        </p>
+                        <div class="pt-3"></div>
+                        <div class="text-center">
+                            <figure class="imghvr-reveal-right img-fluid rounded mb-5" >
+                                <img src="img/mall.jpg" >
+                                <figcaption>
+                                    <h3 class="ih-fade-right text-dark">Atlantis, The Palm</h3>
+                                    <p class="ih-zoom-in ih-delay-md">
+                                        <i>Atlantis The Palm: Lujoso resort en Dubái con temática de la Atlántida, ofrece parque acuático, acuario y restaurantes de primer nivel.</i>
+                                    </p>
+                                </figcaption>
+                                <a href="https://blog.growxco.com/articulos/seo-en-marketing-digital#:~:text=%C2%BFQu%C3%A9%20es%20SEO%20en%20marketing%20digital%3F&text=SEO%20o%20search%20engine%20optimization,sitio%20web%20en%20las%20SERPs." target="none"></a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-6 col-lg-4">
+                        <h5 class="text-center bg-light shadow pt-2 pb-2">Desierto y Mar</h5>
+                        <p class="pt-3" style="text-align: justify;">
+                            A pesar de su imagen moderna y urbana, Dubái también alberga impresionantes paisajes naturales. Desde las dunas del desierto de Arabia hasta las aguas turquesas del Golfo Pérsico, la ciudad ofrece una variedad de actividades al aire libre, como safaris por el desierto, deportes acuáticos y relajantes paseos en barco.
+                        </p>
+                        <div class="pt-3"></div>
+                        <div class="text-center">
+                            <figure class="imghvr-reveal-right img-fluid rounded mb-5" >
+                                <img src="img/frame.jpg" >
+                                <figcaption>
+                                    <h3 class="ih-fade-right text-dark">Dubai Frame</h3>
+                                    <p class="ih-zoom-in ih-delay-md">
+                                        <i>Dubái Frame: Monumento arquitectónico emblemático en Dubái, que ofrece vistas panorámicas de la ciudad desde una estructura en forma de marco gigante.</i>
+                                    </p>
+                                </figcaption>
+                                <a href="https://blog.growxco.com/articulos/seo-en-marketing-digital#:~:text=%C2%BFQu%C3%A9%20es%20SEO%20en%20marketing%20digital%3F&text=SEO%20o%20search%20engine%20optimization,sitio%20web%20en%20las%20SERPs." target="none"></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="s2"></div>
+        </section>
+
+
+        <section class="bg-light" id="mapa">
+            <h2 class="display-5 text-center pt-5"><i class="ri-road-map-line"></i>Mapa de ubicación</h2>
+            <div class="pt-5">
+    
+                <!-- MAPA GOOGLE FULLSCREEN -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40838.948981487316!2d55.26676704341431!3d25.213768477779436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1ses!2scr!4v1710873524958!5m2!1ses!2scr" width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+            </div>
+        </section>
+
+        <section class="espacio2 fondo2" >
+            <div class="">
+                <div class="container">
+                    <h3 class="display-1 text-center pt-5">Formulario de contacto</h3>
+                    <div class="row text-center">
+                        <p class="pt-5 pb-5 text-dark">"Complete este formulario para enviarnos sus consultas, comentarios o sugerencias.  <br> Estamos aquí para ayudarlo y responderemos lo antes posible. ¡Gracias por contactarnos!"</p>
+                    </div>
+    
+                    <!-- FORMULARIO RESPONSIVE -->
+    
+                    <form method="post">
+                        <div class="form-group row">
+                            <div class="col-6">
+                                <div class="pt-3">
+                                    <label for="contact-name" class=""><i class="ri-user-3-line"></i>Nombre:</label>
+                                    <input type="text" class="form-control" placeholder="Escriba su nombre" size="10" required>
+                                </div>
+                            </div>
+    
+                            <div class="col-6">
+                                <div class="pt-3">
+                                    <label for="contact-email" class=""><i class="ri-mail-line"></i>Correo:</label>
+                                    <input type="email" class="form-control" placeholder="Escriba su correo" required>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="pt-5"></div>
+    
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="">
+                                    <label for="contact-subject" class=""><i class="ri-question-line"></i>Asunto:</label>
+                                    <input type="text" class="form-control" placeholder="Escriba el asunto" required>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="pt-5"></div>
+    
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="">
+                                    <label for="contact-message"><i class="ri-question-answer-line"></i>Comentario:</label>
+                                    <textarea class="form-control" rows="7" placeholder="Escriba su comentario" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="pt-5"></div>
+    
+                        <div class="col-12 text-center">
+                            <input type="submit" value="Enviar" class="enviar">
+                            <input type="reset" value="Borrar" class="borrar">
+                        </div>
+                    </form>
+
+                    <div class="container-botonws">
+                        <a href="https://walink.co/5a1edc" class="" target="blank">
+                            <img src="img/ws.png" alt="" class="botonws">
+                        </a>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </section>
+
+        <button id="scrollToTopBtn" onclick="scrollToTop()" href="#inicio" title="Ir al inicio"><i class="ri-arrow-up-double-fill"></i></button>
+
+        <footer class="container-fluid mt-5">
+            <ul class="copyright">
+                <li>&copy;Tarea 3</li><li>2024 <a href="https://ucenfotec.ac.cr/">UCENFOTEC</a></li>
+            </ul>
+        </footer> 
 
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -174,6 +385,15 @@
 
         <!-- libreria Lottie JS-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+        <!-- Requisito para esconder el botón Scrolltop -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <!-- Velocidad del salto de seccion (elastico.js) -->
+        <script src="js/smooth-scroll.min.js"></script>
+
+        <!-- Controlar la aparicion del boton scrolltop -->
+        <script src="js/elastico.js"></script>
         
         <script>
             let anima = document.querySelector(".animacion1");
@@ -191,6 +411,13 @@
             anima.addEventListener("click", function() {
                 animation.play();
             });
+        </script>
+
+        <!-- cargar el archivo JS, el js hace la parte interactiva-->
+        <script src="js/wow.min.js"></script>
+        <!-- activa los efectos de animacion -->
+        <script>
+            new WOW().init();
         </script>
         
     </body>
