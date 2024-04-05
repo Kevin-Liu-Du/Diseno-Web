@@ -32,9 +32,14 @@
                 <h1 class="display-2 text-white text-center" style="font-weight: bolder;">Deja que la maravilla tome el control.</h1>
                 <h2 class="display-1 text-white text-center mt-4" >"Aventuras imperdibles en Dubái."</h2>
                 <button type="button" class="btn text-center mt-5">Comprar Ahora en linea</button>
+                <div class="pt-5">
+                    <button type="button" class="btn btn-outline-light mockup"><a href="../Examen/MockUp.pdf">MockUp</a></button>
+                </div>
                 <p class="p1 mt-5"><i class="ri-arrow-down-double-line"></i><a href="#mapa">Ven a visitarnos aquí</a><i class="ri-arrow-down-double-line"></i></p>
             </div>
+        
         </header>
+        
 
         <!-- sticky-top  aparece el menu al desplazarce -->
   
@@ -75,6 +80,14 @@
                     <li class="nav-item">
                         <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#estructuras">Estructuras</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white optmenu" href="#" id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Restaurantes
+                        </a>
+                        <div class="dropdown-menu text-left" aria-labelledby="desplegable1">
+                            <a class="dropdown-item optmenu" href="#comida1">Sloane's</a>
+                            <a class="dropdown-item optmenu" href="#comida2">Brasserie 2.0</a>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#extras">Extras</a>
                     </li>
@@ -89,8 +102,8 @@
         <!--Cierre del menu-->
     </nav>
 
-        <section class="section1 text-center">
-            <h1 class="display-4 pt-5" id="nosotros" >Explora Dubai: Un Viaje Inolvidable</h1>
+        <section class="section1 text-center" id="nosotros">
+            <h1 class="display-4 pt-5" >Explora Dubai: Un Viaje Inolvidable</h1>
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-md-6 col-lg-6">
@@ -290,7 +303,7 @@
             <hr class="linea pt-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="display-6 text-center mb-5" data-aos="fade-in" data-aos-delay="800" data-aos-easing="ease-in-out" data-aos-once="true">"Explora Dubái: Una Ciudad de Contrastes"</h2>
+                    <h2 class="display-6 text-center mb-5">"Explora Dubái: Una Ciudad de Contrastes"</h2>
                     <div class="col-sm-4 col-md-6 col-lg-4">
                         <h5 class="text-center bg-light shadow pt-2 pb-2">Rascacielos Impresionantes</h5>
                         <p class="pt-3" style="text-align: justify;">
@@ -352,8 +365,48 @@
             </div>
         </section>
 
+        <hr class="linea pt-5">
+
+        <section class="clippath">
+            <h1 class=" text-center display-4 pt-5 pb-5">Restaurantes de Dubai</h1>
+            <div class="container">
+                <div class="row g-0" id="comida1">
+
+                    <div class="col-md-6 col-lg-6">
+                        <div class="col-md-6 col-lg-6 rest1">
+                            <h1 class="display-2 text-center text-white" style="font-size: 50px; padding-top: 200px;">Sloane's</h1>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="col-md-6 col-lg-6">
+                        <p class="pt-5 text-center">
+                            Sloane's es un lujoso restaurante ubicado en Dubai que ofrece una experiencia gastronómica única y diversa. Conocido por su ambiente sofisticado y su impresionante variedad de opciones culinarias, Sloane's es famoso por su buffet internacional de alta gama. El restaurante presenta estaciones de cocina en vivo donde los chefs expertos preparan una amplia selección de platos, que van desde mariscos frescos hasta carnes a la parrilla, sushi, cocina asiática, europea y mucho más. Además de su exquisita comida, Sloane's destaca por su elegante decoración y su ambiente acogedor, lo que lo convierte en un destino popular para disfrutar de una comida excepcional en Dubai.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-0 pb-5" id="comida2">
+
+                    <div class="col-md-6 col-lg-6">
+                        <p class="pt-5 text-center">
+                            Brasserie 2.0 es un elegante restaurante ubicado en Dubai que ofrece una experiencia culinaria contemporánea con un toque francés. Con una atmósfera sofisticada y moderna, este establecimiento combina elementos clásicos de una brasserie con influencias gastronómicas internacionales. Su menú presenta una variedad de platos exquisitos que van desde clásicos de la cocina francesa hasta creaciones innovadoras, utilizando ingredientes frescos y de alta calidad. Además de la deliciosa comida, Brasserie 2.0 ofrece una amplia selección de vinos y cócteles para complementar la experiencia gastronómica. Con un servicio impecable y un ambiente acogedor, este restaurante es una opción popular para disfrutar de una comida memorable en Dubai.
+                        </p>
+                    </div>
+    
+                    <div class="col-md-6 col-lg-6">
+                        <div class="col-md-6 col-lg-6 rest2">
+                            <h1 class="display-2 text-center text-white" style="font-size: 50px; padding-top: 200px;">Brasserie 2.0</h1>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="linea pt-5">
+
         <section class="row" id="extras">
-            <hr class="linea pt-5">
             <h1 class=" text-center display-4">Carrusel de fotos de Dubai</h1>
     
             <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
@@ -391,6 +444,8 @@
             </div>
     
         </section>
+
+        
 
         <section class="bg-light" id="mapa">
             <h2 class="display-5 text-center pt-5"><i class="ri-road-map-line"></i>Mapa de ubicación</h2>

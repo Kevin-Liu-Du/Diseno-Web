@@ -93,6 +93,25 @@ header{
     border-width: 4px;
 }
 
+.mockup {
+    padding: 14px 28px; /* Espaciado interno para el botón */
+    border-radius: 50px; /* Bordes redondeados */
+    border: none; /* Eliminar borde */
+    background: linear-gradient(45deg, #ff4e50, #fc913a); /* Gradiente de color */ 
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.mockup:hover {
+    background: linear-gradient(45deg, #fc913a, #ff4e50); /* Cambiar gradiente de color al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de levantamiento */
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+}
+
 
 .p1 {
     font-size: 25px;
@@ -274,13 +293,38 @@ a {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+/*----------------------------section5------------------------------------*/
+.rest1 {
+    color: #fff;
+    background-image: url(../img/rest1.jpg);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    height: 400px;
+    width: 600px;
+    background-position: center;
+    background-color: #e4e4e4;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.rest2 {
+    color: #fff;
+    background-image: url(../img/rest2.jpg);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    height: 400px;
+    width: 600px;
+    background-position: center;
+    background-color: #e4e4e4;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
 
 
 
 
 
 
-/*formulario de contacto*/
+
+/*--------------------------------------formulario de contacto----------------------------------------------------*/
 
 
 /*etiquetas*/
