@@ -1,0 +1,216 @@
+/*********************  MENU NAV ******************************/
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1px;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+    border-radius: 20px;
+}
+
+.optmenu:hover {
+    background-color: black;
+    transition: all 1s solid;
+    border-radius: 20px;
+}
+
+/*active es cuendo le das click*/
+.optmenu:active {
+    background-color: #FF5733;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #FDBB2F;
+    border-radius: 40px;
+}
+
+.navbar-toggler:hover {
+    background-color: #FF5733;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+/* PERSONALIZACION lineas HAMBURGUESA */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }         
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }   
+
+.fondo1 {
+    background-color: #FDBB2F;
+}
+
+/*--logo--*/
+.logo1 {
+    width: 17%;
+    border-radius: 1rem;
+    -webkit-box-shadow: 3px 3px 2.5px 3px #000;
+    -moz-box-shadow: 3px 3px 2.5px 3px #000;
+    box-shadow: 3px 3px 2.5px 3px #000;
+}
+
+/*********************  MENU NAV ******************************/
+
+/*-----------------------------------banner1------------------------------------*/
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../img/banner1.jpg');
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.espacio {
+    padding: 120px 0;
+}
+
+/*---banner1 boton---*/
+.bannerbtn1 {
+    border-color: transparent;
+    color: white;
+    background-color: #FDBB2F;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-right: 40px; /* Añade un margen a la derecha del botón */
+}
+
+.bannerbtn2 {
+    border-color: #FFC107;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-left: 40px; /* Añade un margen a la izquierda del botón */
+}
+
+/*---disciplina---*/
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(33, 33, 33, 0);
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffc107;
+    letter-spacing: 5px;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #ff5733;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #33a2ff;
+    z-index: -2;
+ }
+ 
+ @keyframes glitch-color {
+    0% {
+       transform: translate(0);
+    }
+ 
+    20% {
+       transform: translate(-3px, 3px);
+    }
+ 
+    40% {
+       transform: translate(-3px, -3px);
+    }
+ 
+    60% {
+       transform: translate(3px, 3px);
+    }
+ 
+    80% {
+       transform: translate(3px, -3px);
+    }
+ 
+    to {
+       transform: translate(0);
+    }
+ }
+
+
+
+/*-----------------------------------banner1------------------------------------*/
+
+
+/*-----------------------------------container fluid 1------------------------------------*/
+.section1 {
+    background-color:#232323;
+}
+
+/*-----------------------------------container fluid 1------------------------------------*/
+
+/*-----------------------------------container fluid 2------------------------------------*/
+.portada1 {
+    color: #fff;
+    background-image: url(../img/banner1.jpg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 48% 68%, 0 100%);
+    height: calc(50vh);
+    background-position: center;
+    background-color: #e4e4e4;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------container fluid 2------------------------------------*/
