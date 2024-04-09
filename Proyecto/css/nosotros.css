@@ -1,0 +1,126 @@
+.banner-section1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('../img/banner2.jpg');
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.espacio {
+    padding: 120px 0;
+}
+
+/*superacion*/
+.glitch-wrapper2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(33, 33, 33, 0);
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fdbb2f;
+    letter-spacing: 5px;
+    animation: shift 4s ease-in-out infinite alternate;
+    transform: skewX(0deg);
+    z-index: 1;
+ }
+ 
+ @keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+       transform: skewX(0deg);
+    }
+ 
+    41% {
+       transform: skewX(10deg);
+    }
+ 
+    42% {
+       transform: skewX(-10deg);
+    }
+ 
+    59% {
+       transform: skewX(40deg) skewY(10deg);
+    }
+ 
+    60% {
+       transform: skewX(-40deg) skewY(-10deg);
+    }
+ 
+    63% {
+       transform: skewX(10deg) skewY(-5deg);
+    }
+ 
+    70% {
+       transform: skewX(-50deg) skewY(-20deg);
+    }
+ 
+    71% {
+       transform: skewX(10deg) skewY(-10deg);
+    }
+ }
+
+/*----------------------------------------------------header---------------------------------*/
+
+/*----------------------------------------------------MISION---------------------------------*/
+svg {
+	font-family: "Tilt Neon", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 7s infinite alternate;
+	stroke-width: 2;
+	stroke: #FDBB2F;
+	font-size: 70px;
+    font-weight: bolder
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(111,71,180,0); stroke: rgba(253,187,47,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(111,71,180,0); stroke: rgba(253,187,47,1); }
+	80%  {fill: rgba(111,71,180,0); stroke: rgba(253,187,47,1); stroke-width: 3; }
+	100% {
+		fill: rgba(111,71,180,1); stroke: rgba(253,187,47,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper1 {background-color: #FFFFFF};
+
+/*----------------------------------------------------MISION---------------------------------*/
+
+/*----------------------------------------------------CONTAINER FLUID 3---------------------------------*/
+.card {
+    text-align: center;
+}
+
+.espaciocard {
+    padding-bottom: 50px;
+}
+
+.logocard {
+    width: 17%;
+    border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%;
+    -webkit-box-shadow: 3px 3px 2.5px 3px #000;
+    -moz-box-shadow: 3px 3px 2.5px 3px #000;
+    box-shadow: 3px 3px 2.5px 3px #000;
+}
+
+.titulocard {
+    font-family: "Tilt Neon", sans-serif;
+}
