@@ -102,6 +102,7 @@ svg text {
 
 .wrapper1 {background-color: #FFFFFF};
 
+
 /*----------------------------------------------------MISION---------------------------------*/
 
 /*----------------------------------------------------CONTAINER FLUID 3---------------------------------*/
@@ -124,3 +125,10 @@ svg text {
 .titulocard {
     font-family: "Tilt Neon", sans-serif;
 }
+
+/*tooltip*/
+.tooltip>.tooltip-inner {
+   background-color: #FDBB2F;
+   color: #000;
+}
+   

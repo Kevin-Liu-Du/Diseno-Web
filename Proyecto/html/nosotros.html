@@ -89,7 +89,7 @@
                             <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/servicios.html">Servicios</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/beneficios.html">Beneficios</a>
@@ -127,7 +127,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-12 col-lg-4">
                         <div class="text-center">
-                            <i class="ri-focus-2-line" style="font-size: 60px; color: red;"></i>
+                            <i class="ri-focus-2-line custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Cambiamos vidas con ejercicio" style="font-size: 60px; color: red;"></i>
                             <h5 style="font-weight: bolder; font-size: 30px; color: #0073e6;">Misión</h5>
                         </div>
                         <p class="text-center">
@@ -136,7 +136,7 @@
                     </div>
                     <div class="col-sm-6 col-md-12 col-lg-4">
                         <div class="text-center">
-                            <i class="ri-eye-line" style="font-size: 60px; color: #9C27B0;"></i>
+                            <i class="ri-eye-line" data-bs-toggle="tooltip" data-bs-placement="top" title="Ser el mejor destino fitness" style="font-size: 60px; color: #9C27B0;"></i>
                             <h5 style="font-weight: bolder; font-size: 30px; color: #4CAF50;">Visión</h5>
                         </div>
                         <p class="text-center">
@@ -145,7 +145,7 @@
                     </div>
                     <div class="col-sm-6 col-md-12 col-lg-4">
                         <div class="text-center">
-                            <i class="ri-vip-diamond-line" style="font-size: 60px; color: #B0E0E6;"></i>
+                            <i class="ri-vip-diamond-line" data-bs-toggle="tooltip" data-bs-placement="top" title="Excelencia, inclusión, integridad, pasión y progreso" style="font-size: 60px; color: #B0E0E6;"></i>
                             <h5 style="font-weight: bolder; font-size: 30px; color: #FFA500;">Valores</h5>
                         </div>
                         <p class="text-center">
@@ -304,5 +304,13 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- activacion del TOOLTIP -->
+        <script>
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        </script>
     </body>
 </html>

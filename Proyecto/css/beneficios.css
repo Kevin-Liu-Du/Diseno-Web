@@ -1,0 +1,79 @@
+/*header*/
+.container-fluid1{
+	height: 100vh;
+}
+/*header*/
+
+/*section1*/
+
+.titulo1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #333; /* Color del texto */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+}
+
+.titulo2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    color: #4a4a4a; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding-bottom: 1.25rem; /* Espacio inferior */
+    margin-bottom: 1.25rem; /* Espacio inferior */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+}
+
+/*section1 acordeon*/
+/* Estilos generales */
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para los botones del acordeón */
+.accordion-button {
+    background-color: #FDBB2F;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.accordion-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos para el contenido del acordeón */
+.accordion-body {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: -1px;
+}
+
+/* Estilos para el título clave */
+.accordion-body strong {
+    color: #ff5733;
+}
+
+/* Estilos para justificar el texto */
+.justificar {
+    text-align: justify;
+}
+
+/*section1 acordeon*/
+
+/*section1*/
