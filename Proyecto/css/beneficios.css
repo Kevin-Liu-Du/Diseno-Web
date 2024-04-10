@@ -76,4 +76,64 @@
 
 /*section1 acordeon*/
 
-/*section1*/
+/*modal*/
+/* Estilos generales */
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #333;
+}
+
+.modal-body {
+    color: #666;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+/* Botón de cierre del modal */
+.btn-warning {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #ffca28;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/*modal*/
