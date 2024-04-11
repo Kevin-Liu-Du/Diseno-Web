@@ -1,0 +1,114 @@
+.gradient-text {
+    background: linear-gradient(to right, #ff0000, #ff5e00, #ffb800, #ffea00, #b8ff00, #5eff00, #00ff00, #00ff91, #00ffea, #00d7ff, #0091ff, #005eff, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*--------------------------------------formulario de contacto----------------------------------------------------*/
+
+
+/*etiquetas*/
+label{
+    color: #000;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* permite saber en que campo se va a ubicar el usuario*/
+input:hover{
+    outline: 1px solid #294A3C;
+}
+
+textarea:hover{
+    outline: 1px solid #294A3C;
+}
+
+/* Propiedades de los campos */
+
+input,
+textarea {
+    cursor: pointer;
+    background-color: #e2e2e2 !important;
+}
+
+
+/* Propiedades de los botones */
+
+.enviar{
+    width: 170px;
+    height: 60px;
+    color: #000;
+    margin: 0 auto;
+    font-size: 26px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: #fdbb2f !important;
+    border-radius: 10px;
+}
+
+.borrar{
+    width: 170px;
+    height: 60px;
+    color: #000;
+    margin: 0 auto;
+    font-size: 26px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: #fdbb2f !important;
+    border-radius: 10px;
+}
+
+
+/* validacion campo TextArea */
+textarea{
+    resize: none;
+}
+
+/*----------------------------------------CHAT WHATAPP forma 2---------------------------------*/
+
+.container-botonws {
+    background-color: rgb(4,187,57); 
+    border: none; 
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 5px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/*efecto de animación imagen chat*/
+
+.botonws {
+    width: 60px;
+    transition: ease 1s;
+}
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(4, 187, 57, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+/*termina CHAT WHATAPP forma 2*/

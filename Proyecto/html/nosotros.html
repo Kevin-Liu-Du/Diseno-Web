@@ -18,6 +18,9 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 
         <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+        <!-- carga de la libreria ANIMATE.CSS CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
         
 
     </head>
@@ -70,7 +73,7 @@
 
             <div class="container">
     
-                <a class="navbar-brand logo" href="index.html">
+                <a class="navbar-brand logo" href="../index.html">
                     <img src="../img/logo1.png" alt="Logotipo empresarial" class="img-fluid logo1">
                 </a>
     
@@ -92,16 +95,16 @@
                             <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/beneficios.html">Beneficios</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/beneficios.html">Beneficios</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/miembros.html">Membresía</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/miembros.html">Membresía</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/blog.html">Blog</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/contactos.html">Contactos</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/contactos.html">Contactos</a>
                         </li>
                         <!--cierre de listado-->
                     </ul>
@@ -128,7 +131,7 @@
                     <div class="col-sm-6 col-md-12 col-lg-4">
                         <div class="text-center">
                             <i class="ri-focus-2-line custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Cambiamos vidas con ejercicio" style="font-size: 60px; color: red;"></i>
-                            <h5 style="font-weight: bolder; font-size: 30px; color: #0073e6;">Misión</h5>
+                            <h5 class="animate__animated animate__tada animate__infinite " style="font-weight: bolder; font-size: 30px; color: #0073e6;">Misión</h5>
                         </div>
                         <p class="text-center">
                             Transformamos vidas promoviendo un estilo de vida activo y saludable a través de programas de ejercicio innovadores y un ambiente motivador.
@@ -137,7 +140,7 @@
                     <div class="col-sm-6 col-md-12 col-lg-4">
                         <div class="text-center">
                             <i class="ri-eye-line" data-bs-toggle="tooltip" data-bs-placement="top" title="Ser el mejor destino fitness" style="font-size: 60px; color: #9C27B0;"></i>
-                            <h5 style="font-weight: bolder; font-size: 30px; color: #4CAF50;">Visión</h5>
+                            <h5 class="animate__animated animate__tada animate__infinite" style="font-weight: bolder; font-size: 30px; color: #4CAF50;">Visión</h5>
                         </div>
                         <p class="text-center">
                             Ser el destino preferido para aquellos que buscan alcanzar sus metas de acondicionamiento físico, ofreciendo instalaciones de vanguardia y un equipo comprometido con el éxito de nuestros miembros.
@@ -146,7 +149,7 @@
                     <div class="col-sm-6 col-md-12 col-lg-4">
                         <div class="text-center">
                             <i class="ri-vip-diamond-line" data-bs-toggle="tooltip" data-bs-placement="top" title="Excelencia, inclusión, integridad, pasión y progreso" style="font-size: 60px; color: #B0E0E6;"></i>
-                            <h5 style="font-weight: bolder; font-size: 30px; color: #FFA500;">Valores</h5>
+                            <h5 class="animate__animated animate__tada animate__infinite" style="font-weight: bolder; font-size: 30px; color: #FFA500;">Valores</h5>
                         </div>
                         <p class="text-center">
                             Compromiso con la excelencia, inclusividad comunitaria, integridad, pasión por el bienestar y compromiso con la innovación y el progreso.
@@ -280,11 +283,11 @@
 
                     <div class="col-lg-3 col-md-6 col-sm-12 text-white">
                         <h1 class="display-6 text-white pt-5" style="font-size: 20px; font-weight: bolder;"><strong> Enlaces </strong></h1>
-                        <a href="../Proyecto/html/nosotros.html" class="enlaces pt-3">Nosotros</a>
-                        <a href="../Proyecto/html/servicios.html" class="enlaces">Servicios</a>
-                        <a href="../Proyecto/html/beneficios.html" class="enlaces">Beneficios</a>
-                        <a href="../Proyecto/html/miembros.html" class="enlaces">Membresía</a>
-                        <a href="../Proyecto/html/blog.html" class="enlaces">Blog</a>
+                        <a href="../html/nosotros.html" class="enlaces pt-3">Nosotros</a>
+                        <a href="../html/servicios.html" class="enlaces">Servicios</a>
+                        <a href="../html/beneficios.html" class="enlaces">Beneficios</a>
+                        <a href="../html/miembros.html" class="enlaces">Membresía</a>
+                        <a href="../html/blog.html" class="enlaces">Blog</a>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-12 text-white">
@@ -311,6 +314,13 @@
             var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
                 return new bootstrap.Tooltip(tooltipTriggerEl)
             })
+        </script>
+
+        <!-- cargar el archivo JS, el js hace la parte interactiva-->
+        <script src="js/wow.js"></script>
+        <!-- activa los efectos de animacion -->
+        <script>
+            new WOW().init();
         </script>
     </body>
 </html>

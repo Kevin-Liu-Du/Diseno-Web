@@ -16,13 +16,17 @@
 
         <!--Libreria de REMIXicons-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+        
+        <!-- carga de la libreria ANIMATE.CSS CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
 
     </head>
     <body>
 
         <header class="container-fluid1 d-flex align-items-center" data-vide-bg="../video/ejercicio">
             <div class="container text-center">
-                <h1 class="text-white" style="font-weight: bolder;"><strong style="color: brown;">POR QUÉ</strong> ejercitarnos? </h1>
+                <h1 class="text-white wow animate__animated animate__backInDown animate__delay-30ms" style="font-weight: bolder;"><strong style="color: brown;">POR QUÉ</strong> ejercitarnos? </h1>
             </div>
         </header>
 
@@ -30,7 +34,7 @@
 
             <div class="container">
     
-                <a class="navbar-brand logo" href="index.html">
+                <a class="navbar-brand logo" href="../index.html">
                     <img src="../img/logo1.png" alt="Logotipo empresarial" class="img-fluid logo1">
                 </a>
     
@@ -55,13 +59,13 @@
                             <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/beneficios.html">Beneficios</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/miembros.html">Membresía</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/miembros.html">Membresía</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/blog.html">Blog</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../Proyecto/html/contactos.html">Contactos</a>
+                            <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="../html/contactos.html">Contactos</a>
                         </li>
                         <!--cierre de listado-->
                     </ul>
@@ -122,12 +126,12 @@
 
         <section class="container-fluid2">
             <div class="container text-center">
-                <h1 class="display-1 titulo1 pt-5 pb-2">Como nos afectan?</h1>
+                <h1 class="display-1 titulo1 pt-5 pb-2 wow animate__animated animate__pulse animate__delay-300ms animate__infinite">Como nos afectan?</h1>
                 <hr>
                 <div class="row">
                     <!--====================================Modal 1=======================================================--> 
                     <div class="col-lg-3 col-md-6 col-sm-12 text-dark">
-                        <div class="card">
+                        <div class="card ">
                             <img src="../img/fisica.jpg" class="img-fluid cursor" alt="Salud Fisica" data-bs-toggle="modal" data-bs-target="#myModal1">
                             <div class="card-body">
                                 <h5 class="card-title">Salud Física</h5>
@@ -322,11 +326,11 @@
 
                     <div class="col-lg-3 col-md-6 col-sm-12 text-white">
                         <h1 class="display-6 text-white pt-5" style="font-size: 20px; font-weight: bolder;"><strong> Enlaces </strong></h1>
-                        <a href="../Proyecto/html/nosotros.html" class="enlaces pt-3">Nosotros</a>
-                        <a href="../Proyecto/html/servicios.html" class="enlaces">Servicios</a>
-                        <a href="../Proyecto/html/beneficios.html" class="enlaces">Beneficios</a>
-                        <a href="../Proyecto/html/miembros.html" class="enlaces">Membresía</a>
-                        <a href="../Proyecto/html/blog.html" class="enlaces">Blog</a>
+                        <a href="../html/nosotros.html" class="enlaces pt-3">Nosotros</a>
+                        <a href="../html/servicios.html" class="enlaces">Servicios</a>
+                        <a href="../html/beneficios.html" class="enlaces">Beneficios</a>
+                        <a href="../html/miembros.html" class="enlaces">Membresía</a>
+                        <a href="../html/blog.html" class="enlaces">Blog</a>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-12 text-white">
@@ -355,5 +359,12 @@
 
         <!-- Carga del JS Video Fondo (complemento JQUERY) -->
         <script src="../js/jquery.vide.js"></script>
+
+        <!-- cargar el archivo JS, el js hace la parte interactiva-->
+        <script src="js/wow.js"></script>
+        <!-- activa los efectos de animacion -->
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>
