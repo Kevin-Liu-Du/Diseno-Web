@@ -80,3 +80,15 @@
   .texto {
     margin: 0 10px; /* Puedes ajustar el margen según tus preferencias */
   }
+
+/*barra de progreso*/
+/*forma usando CLIPATH*/
+
+.seccion2 .icon {
+   clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+   background-color: #ffd433;
+   width: 110px;
+   padding: 25px;
+   text-align: center;
+   color: #000;
+}

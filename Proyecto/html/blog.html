@@ -10,6 +10,7 @@
 
         <link rel="stylesheet" href="../css/blog.css">
         <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/reglas.css">
 
         <!--Libreria de iconoes web iconscout-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -232,6 +233,74 @@
             </div>
         </section>
 
+        <section class="container-fluid seccion2 py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="container tituloSeccion2 wow animate__animated animate__pulse animate__delay-300ms animate__infinite"> Los 6 aspectos mas importante de ejercicio</h2>
+                    <div class="col-md-6 col-lg-6">
+                        <p class="text-left" style="text-align: justify;">
+                            Para obtener los máximos beneficios del ejercicio, es crucial considerar varios aspectos. En primer lugar, la variedad en las actividades permite trabajar diferentes grupos musculares y evitar el estancamiento. Luego, el descanso adecuado es esencial para permitir la recuperación muscular y prevenir lesiones. Además, la atención a la técnica correcta durante el entrenamiento minimiza el riesgo de lesiones y maximiza los resultados. Ajustar la intensidad del ejercicio según las capacidades individuales es clave para desafiar al cuerpo y promover mejoras. La consistencia en la práctica garantiza un progreso continuo y sostenido. Finalmente, la nutrición adecuada proporciona el combustible necesario para el rendimiento, apoya la recuperación muscular y contribuye a la salud general del cuerpo. Integrar estos aspectos en un plan de ejercicio equilibrado es fundamental para alcanzar los objetivos de bienestar y fitness a largo plazo. Del orden de menos importante al más <i class="ri-arrow-right-double-fill"></i><i class="ri-arrow-right-double-fill"></i><i class="ri-arrow-right-double-fill"></i><i class="ri-arrow-right-double-fill"></i><i class="ri-arrow-right-double-fill"></i><i class="ri-arrow-right-double-fill"></i><i class="ri-arrow-right-double-fill"></i>
+    
+                        <!-- ANIMACION BARRA DE PROGRESO -->
+    
+                        <div class="progress">
+                            <!-- el style es el numero inicial que va a iniciar el progress bar en porcentaje -->
+                            <!-- al ponerlo en 0% va a iniciar vacia e ira aumentando de acuerdo al JS -->
+                            <!-- la clase progress-bar-striped progress-bar-animated permite poner un efecto animado dentro de la clase-->
+                            <div id="anima" class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%;font-size:18px" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                            <div class="pt-5"></div>
+                        </div>
+                        <span id="anima"></span>
+                        <div class="pt-5"></div>
+                        <button class="btn btn-danger btn-lg" onclick="animar()">Ver Progreso</button>
+    
+                    </div>
+    
+                    <div class="col-md-6 col-lg-6">
+    
+                        <!-- BARRA DE PROGRESO-->
+    
+                        <div class="progress">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar " style="width: 25%;font-size:18px " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 ">25%</div>
+                            <div class="pt-5 "></div>
+                        </div>
+                        <span style="font-size:18px;color:#000 ">Variedad</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" role="progressbar " style="width: 50%;font-size:18px " aria-valuenow="50 " aria-valuemin="0 " aria-valuemax="100 ">50%</div>
+                            <div class="pt-5 "></div>
+                        </div>
+                        <span style="font-size:18px;color:#000 ">Descanso</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated " role="progressbar " style="width: 75%;font-size:18px " aria-valuenow="75 " aria-valuemin="0 " aria-valuemax="100 ">75%</div>
+                            <div class="pt-5 "></div>
+                        </div>
+                        <span style="font-size:18px;color:#000 ">Técnica</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated " role="progressbar " style="width: 85%;font-size:18px " aria-valuenow="85" aria-valuemin="0 " aria-valuemax="100 ">85%</div>
+                            <div class="pt-5 "></div>
+                        </div>
+                        <span style="font-size:18px;color:#000">Intensidad</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated " role="progressbar " style="width: 90%;font-size:18px " aria-valuenow="90" aria-valuemin="0" aria-valuemax="100 ">90%</div>
+                            <div class="pt-5"></div>
+                        </div>
+                        <span style="font-size:18px;color:#000 ">Consistencia</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated " role="progressbar " style="width: 100%;font-size:18px " aria-valuenow="100" aria-valuemin="0 " aria-valuemax="100 ">100%</div>
+                            <div class="pt-5"></div>
+                        </div>
+                        <span style="font-size:18px;color:#000">Nutrición</span>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer>
             <div class="container">
                 <div class="row">
@@ -295,5 +364,10 @@
         <script>
             new WOW().init();
         </script>
+
+        <!-- animacion progress bar-->
+        <script src="../js/loadingbar.js"></script>
+        <!-- libreria desplegable -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     </body>
 </html>
